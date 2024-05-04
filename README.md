@@ -165,7 +165,7 @@ _To get a local copy up and running follow these simple example steps:_
     <a href="https://github.com/beckpull/pwa-text-editor">
       <p>Installed version inspection window:</p>
       <img src="./readme-imgs/installed-storage.png" width="300">
-      <img src="./readme-imgs/installed-sw.png" width="301>
+      <img src="./readme-imgs/installed-sw.png" width="301">
     </a>
   </br></br>
 </div>
