@@ -31,5 +31,3 @@ registerRoute(
                   request.destination === 'worker',
   pageCache
 );
-
-registerRoute();
