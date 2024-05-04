@@ -21,7 +21,7 @@
     <a href="https://github.com/beckpull/pwa-text-editor"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="#">View Webpage</a>
+    <a href="https://pwa-text-editor-vx5e.onrender.com">View Webpage</a>
     ·
     <a href="https://github.com/beckpull/pwa-text-editor/issues">Report Bug</a>
     ·
@@ -67,25 +67,21 @@
 Overview
 The Text Editor Progressive Web Application (PWA) is a modern text editing tool that harnesses the capabilities of Progressive Web App technology. It offers users a seamless and responsive editing experience across various devices and platforms.
 
-Key Features
-Progressive Web App (PWA): Utilizes the latest web technologies to deliver an app-like experience, enabling users to install and use the text editor directly from their web browsers.
-Express Backend: Employs Express.js for the backend, providing a robust and efficient server framework for handling HTTP requests and serving the application's resources.
-Real-time Collaboration: Implements real-time collaboration features, allowing multiple users to edit the same document simultaneously with instant updates.
-Offline Support: Utilizes service workers to enable offline functionality, ensuring users can continue editing their documents even when they're not connected to the internet.
-Customizable Themes: Offers a range of customizable themes and styling options, allowing users to personalize their editing environment according to their preferences.
-Rich Text Editing: Provides a feature-rich text editing experience with support for formatting, syntax highlighting, code completion, and more.
-Cloud Storage Integration: Integrates with cloud storage services (e.g., Google Drive, Dropbox) to allow users to seamlessly save and sync their documents across devices.
-Technologies Used
-Frontend: HTML, CSS, JavaScript (possibly with frameworks like React or Vue.js)
-Backend: Node.js with Express.js
-Data Storage: MongoDB for storing user preferences, documents metadata, and collaborative editing data
-Progressive Web App: Utilizes service workers, Web App Manifest, and other PWA features for enhanced performance and user experience
-Goals
-The primary goal of the Text Editor PWA project is to develop a feature-rich and user-friendly text editing application that leverages the capabilities of Progressive Web App technology. It aims to provide users with a seamless editing experience, whether they're online or offline, while also offering collaborative editing features and integration with popular cloud storage services.
+### Key Features
+- **Progressive Web App (PWA)**: Utilizes the latest web technologies to deliver an app-like experience, enabling users to install and use the text editor directly from their web browsers.
+- **Express Backend**: Employs Express.js for the backend, providing a robust and efficient server framework for handling HTTP requests and serving the application's resources.
+- **Offline Support**: Utilizes service workers to enable offline functionality, ensuring users can continue editing their documents even when they're not connected to the internet.
+- **Rich Text Editing**: Provides a feature-rich text editing experience with support for formatting, syntax highlighting, code completion, and more.
 
-**Key Features**:
+### Technologies Used
+- **Frontend**: HTML, CSS, JavaScript 
+- **Backend**: Node.js with Express.js
+- **Data Storage**: MongoDB for storing user preferences, documents metadata, and collaborative editing data
+- **Progressive Web App**: Utilizes service workers, Web App Manifest, and other PWA features for enhanced performance and user experience
 
-
+### Goals
+- The primary goal of the Text Editor PWA project is to develop a feature-rich and user-friendly text editing application that leverages the capabilities of Progressive Web App technology. 
+> It aims to provide users with a seamless editing experience, whether they're online or offline, while also offering collaborative editing features and integration with popular cloud storage services.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -100,10 +96,10 @@ The primary goal of the Text Editor PWA project is to develop a feature-rich and
 * ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 * ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 * ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=darkgreen)
-* ![Mongoose](https://img.shields.io/badge/Mongoose•odm-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=darkgreen)
+<!-- * ![Mongoose](https://img.shields.io/badge/Mongoose•odm-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=darkgreen) -->
 * ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
 * ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
-* ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
+<!-- * ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white) -->
 * ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
 * ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
@@ -118,12 +114,11 @@ The primary goal of the Text Editor PWA project is to develop a feature-rich and
 ### Prerequisites
 
 _This application has several dependencies, to install individually onto your machine, navigate to the directory this code lives in and type these commands into your Terminal / Git Bash:_
-  ```sh
-#   npm i express
-#   npm i mongodb
-#   npm i mongoose
-#   npm i nodemon --save-dev
-  ```
+</br>
+</br>
+<div align="center"><img src="./readme-imgs/dependencies.png" alt="dependencies" width="500">
+</div>
+</br>
 
 ### Installation
 
@@ -150,35 +145,28 @@ _To get a local copy up and running follow these simple example steps:_
 </br></br>
 
 <div align="center"> 
-  <img src="./assets/qr.png" width="200" alt="qr code for demo video">
+  <img src="./readme-imgs/qr.png" width="200" alt="qr code for demo video">
   </br>
   </br>
-  <strong><i>Scan the QR code above or click <strong><a href="#">HERE</a></strong> to view this deployed site on Render</strong>
+  <strong><i>Scan the QR code above or click <strong><a href="https://pwa-text-editor-vx5e.onrender.com">HERE</a></strong> to view this deployed site on Render</strong></i>
     </br>
     </br>
     </br>
-    <!-- <a href="https://github.com/beckpull/pwa-text-editor">
-    <p>/api/users</p>
-      <img src="./assets/users1.png" width="300">
-      <img src="./assets/users2.png" width="300">
-      <img src="./assets/users3.png" width="523">
+  <a href="https://github.com/beckpull/pwa-text-editor">
+    <p>In-Browser viewing:</p>
+      <img src="./readme-imgs/browser-console.png">
     </a>
     </br></br>
     <a href="https://github.com/beckpull/pwa-text-editor">
-      <p>/api/users/:userId/friends/:friendId</p>
-      <img src="./assets/friendsPOST.png" width="605">
-      <img src="./assets/friendsDELETE.png" width="647">
-    </a>
-    </br></br>
-    <a href="https://github.com/beckpull/pwa-text-editor">
-      <p>/api/thoughts</p>
-      <img src="./assets/thoughts.png" width="700">
+      <p>Prompt to install/icon once installed:</p>
+      <img src="./readme-imgs/install-prompt.png" width="300">
+      <img src="./readme-imgs/installed-icon.png" width="177">
     </a>
     <a href="https://github.com/beckpull/pwa-text-editor">
-      <p>/api/thoughts/:thoughtId/</p>
-      <img src="./assets/singleThought.png" width="700">
-      <img src="./assets/singleThought2.png" width="500">
-    </a> -->
+      <p>Installed version inspection window:</p>
+      <img src="./readme-imgs/installed-storage.png" width="300">
+      <img src="./readme-imgs/installed-sw.png" width="301>
+    </a>
   </br></br>
 </div>
 
@@ -187,7 +175,7 @@ _To get a local copy up and running follow these simple example steps:_
 <!-- ROADMAP -->
 ## Roadmap
 
-<img src="./assets/roadmap.png">
+<img src="./readme-imgs/roadmap.png">
 <div align="right">
   <p><i>This was my roadmap for this project</i></p>
 </div>
@@ -238,6 +226,13 @@ Don't forget to give the project a star! Thanks again!_
 3. Commit your Changes (`git commit -m 'Added ______ , NewFeature'`)
 4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
+
+### Directions for Future Development:
+
+- **Customizable Themes**: Offers a range of customizable themes and styling options, allowing users to personalize their editing environment according to their preferences. 
+- **Real-time Collaboration**: Implements real-time collaboration features, allowing multiple users to edit the same document simultaneously with instant updates.
+- **Cloud Storage Integration**: Integrates with cloud storage services (e.g., Google Drive, Dropbox) to allow users to seamlessly save and sync their documents across devices.
+
 
 See the [open issues](https://github.com/beckpull/pwa-text-editor/issues) for a full list of proposed features (and known issues).
 
