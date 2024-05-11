@@ -64,7 +64,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Overview
 The Text Editor Progressive Web Application (PWA) is a modern text editing tool that harnesses the capabilities of Progressive Web App technology. It offers users a seamless and responsive editing experience across various devices and platforms.
 
 ### Key Features
